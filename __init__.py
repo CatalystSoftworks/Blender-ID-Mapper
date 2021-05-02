@@ -27,7 +27,7 @@ bl_info = {
     "name": "ID Mapper",
     "author": "Nicholas Glenn",
     "description": "Utility for setting vertex colors for the purpose baking ID maps.",
-    "version": (1, 0, 0),
+    "version": (1, 0, 1),
     "blender": (2, 80, 0),
     "location": "View3D",
     "wiki_url": "https://github.com/CatalystSoftworks/ID-Mapper-for-Blender",
@@ -54,7 +54,6 @@ classes = (
 
 def object_mode_context_menu(self, context):
     layout = self.layout
-    layout.label(text="obj test")
 
 
 def edit_faces_menu(self, context):
